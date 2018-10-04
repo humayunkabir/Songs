@@ -1,0 +1,11 @@
+.song-card {
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  max-width: 18rem;
+  margin: 1rem;
+}
+.song-thumb {
+  max-width: 100%;
+  height: auto;
+}
