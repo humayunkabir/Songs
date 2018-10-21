@@ -2,6 +2,8 @@
   "name": "songs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://humayunkabir.github.io/Songs",
+  "db": "http://api.bollywoodgaana.com/api/v1/hindi_video?api_token=LgGW9icPetuZNcB03nbJ9JioSG02EA5EVQ3gWps9MtGIN1sCTawtKzHFNRvK",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
@@ -15,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "db": "json-server -w SongsDB.json"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Songs from './Components/Songs/Songs';
+import App from './App';
 
-ReactDOM.render(<Songs />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
