@@ -8,7 +8,7 @@ class Songs extends Component {
   };
   componentDidMount() {
     axios.get('http://localhost:3000/songs').then(res => {
-      this.setState({ songs: res.data.slice(0, 12) });
+      this.setState({ songs: res.data });
     });
   }
   render() {
