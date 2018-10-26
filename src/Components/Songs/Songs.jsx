@@ -10,8 +10,8 @@ class Songs extends Component {
     axios
       .get('http://localhost:3000/api/songs')
       .then(res => {
-        console.log(res.data);
-        this.setState({ songs: res.data });
+        const { songs } = res.data;
+        this.setState({ songs });
       })
       .catch(error => console.log(error));
   }
