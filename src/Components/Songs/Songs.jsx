@@ -7,9 +7,13 @@ class Songs extends Component {
     songs: []
   };
   componentDidMount() {
-    axios.get('http://localhost:3000/songs').then(res => {
-      this.setState({ songs: res.data });
-    });
+    axios
+      .get('http://localhost:3000/api/songs')
+      .then(res => {
+        console.log(res.data);
+        this.setState({ songs: res.data });
+      })
+      .catch(error => console.log(error));
   }
   render() {
     return (

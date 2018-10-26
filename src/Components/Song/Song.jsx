@@ -5,10 +5,7 @@ const Song = props => {
   return (
     <div className="col-sm-6 col-md-4 col-lg-3 mb-4 align-self-stretch">
       <div className="card shadow h-100">
-        <a
-          href={`https://www.youtube.com/watch?v=${song_link}`}
-          target="_blank"
-        >
+        <a href={`https://www.youtube.com/watch?v=${song_link}`}>
           <img
             className="card-img-top"
             src={`https://img.youtube.com/vi/${song_link}/mqdefault.jpg`}
