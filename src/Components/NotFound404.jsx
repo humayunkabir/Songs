@@ -1,6 +1,7 @@
 import React from 'react';
 
 const NotFound404 = props => {
+  
   return(
     <div className="container">
       <div className="row align-items-center justify-content-center">
